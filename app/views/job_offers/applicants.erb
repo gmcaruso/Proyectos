@@ -1,0 +1,29 @@
+<h1>My Applicants</h1>
+
+<table class="table table-bordered">
+	<tr>
+		<th>Name</th>
+		<th>Email</th>
+		<th>Actions</th>
+	</tr>
+	
+	<% @applications.each do |application| %>
+	
+	<tr>
+		<td>
+
+			<%= applicantion.applicant_name %>
+
+		</td>
+		<td>
+
+			<%= application.applicant_email %>
+
+		</td>
+		<td>
+		</td>		
+	</tr>
+
+  <% end %>
+
+</table>
